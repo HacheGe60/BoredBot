@@ -1,4 +1,8 @@
 body {
+    margin: 0;
+}
+
+main {
     /* uigradients.com */
     background: #bdc3c7;
     /* fallback for old browsers */

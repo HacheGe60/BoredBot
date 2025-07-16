@@ -1,4 +1,4 @@
-const bodyEl = document.querySelector('body');
+const mainEl = document.querySelector('main');
 const getActivityEl = document.querySelector('#get-activity');
 const activityEl = document.querySelector('#activity');
 const titleEl = document.querySelector('#title');
@@ -9,6 +9,6 @@ getActivityEl.addEventListener('click', () => {
         .then(data => {
             activityEl.textContent = data.activity;
             titleEl.textContent = "🦾 HappyBot🦿";
-            bodyEl.classList.add('fun');
+            mainEl.classList.add('fun');
         });
 });
